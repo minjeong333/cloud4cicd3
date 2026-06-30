@@ -13,6 +13,14 @@ public class HelloController {
 
     public String  hi(){
 
-        return  "hi  cicd docker !!!  ^^^ !!! 0630 ";
+        return  "hi  cicd docker !!!  ";
+    }
+
+    @ResponseBody
+    @GetMapping("/hi2")
+
+    public String  hi2(){
+
+        return  "hi2  cicd docker !!!  0630 실습입니다 ";
     }
 }
